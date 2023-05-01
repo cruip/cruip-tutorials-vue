@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import {
     Dialog,
     DialogPanel,
@@ -7,19 +7,23 @@ import {
     TransitionChild,
 } from '@headlessui/vue'
 
-const modalOpen = ref(false)
-const video = ref(null)
+const modalOpen = ref<boolean>(false)
+const videoRef = ref<HTMLVideoElement | null>(null)
 
 function closeModal() {
     modalOpen.value = false
 }
+
+watch(videoRef, () => {
+    videoRef.value?.play()
+})
 </script>
 
 <template>
     <div>
 
         <!-- Video thumbnail -->
-        <button class="relative flex justify-center items-center focus:outline-none focus-visible:ring focus-visible:ring-indigo-300 rounded-3xl group" @click="modalOpen = true" aria-controls="modal" aria-label="Watch the video">
+        <button class="relative flex justify-center items-center focus:outline-none focus-visible:ring focus-visible:ring-indigo-300 rounded-3xl group" @click="modalOpen = true" aria-label="Watch the video">
             <img class="rounded-3xl shadow-2xl transition-shadow duration-300 ease-in-out" src="../assets/video-modal-thumb.jpg" width="768" height="432" alt="Video modal thumbnail" />
             <!-- Play icon -->
             <svg class="absolute pointer-events-none group-hover:scale-110 transition-transform duration-300 ease-in-out" xmlns="http://www.w3.org/2000/svg" width="72" height="72">
@@ -30,7 +34,7 @@ function closeModal() {
         <!-- End: Video thumbnail -->
 
         <TransitionRoot :show="modalOpen" as="template">
-            <Dialog :initialFocus="video" @close="closeModal">
+            <Dialog :initialFocus="videoRef" @close="closeModal">
 
                 <!-- Modal backdrop -->
                 <TransitionChild
@@ -56,7 +60,7 @@ function closeModal() {
                 >                
                     <div class="max-w-5xl mx-auto h-full flex items-center">
                         <DialogPanel class="w-full max-h-full rounded-3xl shadow-2xl aspect-video bg-black overflow-hidden">
-                            <video ref="video" width="1920" height="1080" loop controls>
+                            <video ref="videoRef" width="1920" height="1080" loop controls>
                                 <source src="../assets/video.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
