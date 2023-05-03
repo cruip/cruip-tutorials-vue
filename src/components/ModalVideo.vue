@@ -10,10 +10,6 @@ import {
 const modalOpen = ref<boolean>(false)
 const videoRef = ref<HTMLVideoElement | null>(null)
 
-function closeModal() {
-    modalOpen.value = false
-}
-
 watch(videoRef, () => {
     videoRef.value?.play()
 })
@@ -45,7 +41,7 @@ const props = defineProps<Props>()
         <!-- End: Video thumbnail -->
 
         <TransitionRoot :show="modalOpen" as="template">
-            <Dialog :initialFocus="videoRef" @close="closeModal">
+            <Dialog :initialFocus="videoRef" @close="modalOpen = false">
 
                 <!-- Modal backdrop -->
                 <TransitionChild
