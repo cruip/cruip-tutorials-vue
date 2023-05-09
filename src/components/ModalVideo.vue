@@ -18,6 +18,7 @@ interface Props {
     thumb: string
     thumbWidth: number
     thumbHeight: number
+    thumbAlt: string
     video: string
     videoWidth: number
     videoHeight: number
@@ -27,7 +28,7 @@ const props = defineProps<Props>()
 </script>
 
 <template>
-    <div>
+    <div class="flex justify-center">
 
         <!-- Video thumbnail -->
         <button class="relative flex justify-center items-center focus:outline-none focus-visible:ring focus-visible:ring-indigo-300 rounded-3xl group" @click="modalOpen = true" aria-label="Watch the video">
