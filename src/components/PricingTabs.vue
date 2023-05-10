@@ -24,7 +24,6 @@ const yearly = ref<boolean>(true)
             <!-- Pricing tab 1 -->
             <PricingTab
                 :yearly="yearly"
-                :popular="false"
                 planName="Essential"
                 :price="{ yearly: 29, monthly: 35 }"
                 planDescription="There are many variations available, but the majority have suffered."
@@ -53,7 +52,6 @@ const yearly = ref<boolean>(true)
             <!-- Pricing tab 3 -->
             <PricingTab
                 :yearly="yearly"
-                :popular="false"
                 planName="Enterprise"
                 :price="{ yearly: 79, monthly: 85 }"
                 planDescription="There are many variations available, but the majority have suffered."

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 interface Props {
     yearly: boolean
-    popular: boolean
+    popular?: boolean
     planName: string
     price: {
         monthly: number
