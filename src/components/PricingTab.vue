@@ -24,7 +24,7 @@ const props = defineProps<Props>()
                 <div class="text-slate-900 dark:text-slate-200 font-semibold mb-1">{{ props.planName }}</div>
                 <div class="inline-flex items-baseline mb-2">
                     <span class="text-slate-900 dark:text-slate-200 font-bold text-3xl">$</span>
-                    <span class="text-slate-900 dark:text-slate-200 font-bold text-4xl" v-text="yearly ? props.price.monthly : props.price.yearly"></span>
+                    <span class="text-slate-900 dark:text-slate-200 font-bold text-4xl" v-text="yearly ? props.price.yearly : props.price.monthly"></span>
                     <span class="text-slate-500 font-medium">/mo</span>
                 </div>
                 <div class="text-sm text-slate-500 mb-5">{{ props.planDescription }}</div>

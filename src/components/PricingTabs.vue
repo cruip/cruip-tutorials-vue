@@ -26,7 +26,7 @@ const yearly = ref<boolean>(true)
                 :yearly="yearly"
                 :popular="false"
                 planName="Essential"
-                :price="{ monthly: 29, yearly: 35 }"
+                :price="{ yearly: 29, monthly: 35 }"
                 planDescription="There are many variations available, but the majority have suffered."
                 :features="[
                     'Unlimited placeholder texts',
@@ -40,7 +40,7 @@ const yearly = ref<boolean>(true)
                 :yearly="yearly"
                 :popular="true"
                 planName="Perform"
-                :price="{ monthly: 49, yearly: 55 }"
+                :price="{ yearly: 49, monthly: 55 }"
                 planDescription="There are many variations available, but the majority have suffered."
                 :features="[
                     'Unlimited placeholder texts',
@@ -55,7 +55,7 @@ const yearly = ref<boolean>(true)
                 :yearly="yearly"
                 :popular="false"
                 planName="Enterprise"
-                :price="{ monthly: 79, yearly: 85 }"
+                :price="{ yearly: 79, monthly: 85 }"
                 planDescription="There are many variations available, but the majority have suffered."
                 :features="[
                     'Unlimited placeholder texts',
