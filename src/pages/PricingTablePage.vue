@@ -14,5 +14,5 @@ import Banner from '../components/Banner.vue'
       <a class="text-xs text-slate-500 hover:text-slate-800 transition-colors duration-150" href="https://cruip.com">&copy;Cruip - Tailwind CSS templates</a>
     </div>
   </footer>
-  <Banner tutorialUrl="https://cruip.com/how-to-build-a-modal-video-component-with-tailwind-css-and-vue/" downloadUrl="https://github.com/cruip/cruip-tutorials-vue/blob/main/src/components/ModalVideo.vue" />
+  <Banner tutorialUrl="https://cruip.com/how-to-create-a-pricing-table-with-a-monthly-yearly-toggle-in-tailwind-css-and-vue/" downloadUrl="https://github.com/cruip/cruip-tutorials-vue/blob/main/src/components/PricingTable.vue" />
 </template>
