@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import PricingTabs from '../components/PricingTabs.vue';
+import PricingTable from '../components/PricingTable.vue';
 import Banner from '../components/Banner.vue'
 </script>
 
 <template>
   <main class="my-6">
     <div class="w-full max-w-6xl mx-auto">
-      <PricingTabs />
+      <PricingTable />
     </div>
   </main>
   <footer class="h-6">

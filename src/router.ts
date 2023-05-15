@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import ModalVideoPage from './pages/ModalVideoPage.vue'
-import PricingTabsPage from './pages/PricingTabsPage.vue'
+import PricingTablePage from './pages/PricingTablePage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -10,8 +10,8 @@ const router = createRouter({
       component: ModalVideoPage
     },
     {
-      path: '/pricing-tabs',
-      component: PricingTabsPage
+      path: '/pricing-table',
+      component: PricingTablePage
     },    
   ]
 })
