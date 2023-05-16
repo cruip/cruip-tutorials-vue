@@ -1,6 +1,14 @@
-# cruip-tutorials-vue
+# Cruip Tutorials made with Vue and Tailwind CSS
 
-# Vue 3 + TypeScript + Vite
+Welcome to the repository of Cruip's guides & tutorials for Vue. Here you will find the code for all the components we have developed and will develop, ready to be integrated into your projects.
+
+If you're new to our articles, we recommend taking a look here: [Tailwind CSS Tutorials](https://cruip.com/tutorials/). If you're new to Cruip's ecosystem, learn more about our [Tailwind CSS templates](https://cruip.com/).
+
+## Tutorial list
+
+- [How to Build a Modal Video Component with Tailwind CSS and Vue](https://cruip.com/how-to-build-a-modal-video-component-with-tailwind-css-and-vue/)
+
+## Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
