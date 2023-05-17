@@ -59,7 +59,7 @@ const props = defineProps<Props>()
 
                 <!-- Modal dialog -->
                 <TransitionChild
-                    className="fixed inset-0 z-[99999] flex p-6"
+                    className="fixed inset-0 z-[99999] flex px-4 md:px-6 py-6"
                     enter="transition ease-out duration-300"
                     enterFrom="opacity-0 scale-75"
                     enterTo="opacity-100 scale-100"

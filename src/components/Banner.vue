@@ -11,7 +11,7 @@ const props = defineProps<Props>()
 </script>
 
 <template>
-    <div class="fixed bottom-0 right-0 w-full md:bottom-6 md:right-12 md:w-auto z-60" :class="bannerOpen ? '' : 'hidden'">
+    <div class="fixed bottom-0 right-0 w-full md:bottom-6 md:right-12 md:w-auto z-50" :class="bannerOpen ? '' : 'hidden'">
         <div class="bg-slate-800 text-sm p-3 md:rounded shadow flex justify-between">
             <div class="text-slate-500 inline-flex">
                 <a class="font-medium hover:underline text-slate-300" :href="props.tutorialUrl">
