@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import PricingTable from '../components/PricingTable.vue';
+import PricingTable from '../components/PricingTable.vue'
 import Footer from '../components/Footer.vue'
 import Banner from '../components/Banner.vue'
 </script>

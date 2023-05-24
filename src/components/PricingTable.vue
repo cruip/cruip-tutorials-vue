@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import PricingTab from './PricingTab.vue';
+import PricingTab from './PricingTab.vue'
 
 const isAnnual = ref<boolean>(true)
 </script>
