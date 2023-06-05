@@ -10,7 +10,14 @@ import VideoSrc from '../assets/video.mp4'
   <main class="relative min-h-screen flex flex-col justify-center bg-slate-50 overflow-hidden">
     <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
       <div class="flex justify-center">
-        <ModalVideo :thumb="VideoThumb" :thumbWidth="768" :thumbHeight="432" thumbAlt="Modal video thumbnail" :video="VideoSrc" :videoWidth="1920" :videoHeight="1080" />
+        <ModalVideo
+          :thumb="VideoThumb"
+          :thumbWidth="768"
+          :thumbHeight="432"
+          thumbAlt="Modal video thumbnail"
+          :video="VideoSrc"
+          :videoWidth="1920"
+          :videoHeight="1080" />
       </div>
     </div>
   </main>

@@ -3,6 +3,7 @@ import ModalVideoPage from './pages/ModalVideoPage.vue'
 import PricingTablePage from './pages/PricingTablePage.vue'
 import ParticleAnimationPage from './pages/ParticleAnimationPage.vue'
 import SpotlightEffectPage from './pages/SpotlightEffectPage.vue'
+import FancyTestimonialsSliderPage from './pages/FancyTestimonialsSliderPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -22,7 +23,11 @@ const router = createRouter({
     {
       path: '/spotlight-effect',
       component: SpotlightEffectPage
-    },     
+    },
+    {
+      path: '/fancy-testimonials-slider',
+      component: FancyTestimonialsSliderPage
+    },   
   ]
 })
 

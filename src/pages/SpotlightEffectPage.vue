@@ -11,6 +11,7 @@ import Banner from '../components/Banner.vue'
 <template>
   <main class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden">
     <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
+
       <Spotlight class="max-w-sm mx-auto grid gap-6 lg:grid-cols-3 items-start lg:max-w-none group">
         <!-- Card #1 -->
         <SpotlightCard>
@@ -94,6 +95,7 @@ import Banner from '../components/Banner.vue'
           </div>
         </SpotlightCard>
       </Spotlight>
+      
     </div>
   </main>
   <Footer />
