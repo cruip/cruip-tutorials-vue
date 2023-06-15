@@ -4,6 +4,7 @@ import PricingTablePage from './pages/PricingTablePage.vue'
 import ParticleAnimationPage from './pages/ParticleAnimationPage.vue'
 import SpotlightEffectPage from './pages/SpotlightEffectPage.vue'
 import FancyTestimonialsSliderPage from './pages/FancyTestimonialsSliderPage.vue'
+import VerticalTimelinesPage from './pages/VerticalTimelinesPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -27,7 +28,11 @@ const router = createRouter({
     {
       path: '/fancy-testimonials-slider',
       component: FancyTestimonialsSliderPage
-    },   
+    },
+    {
+      path: '/vertical-timelines',
+      component: VerticalTimelinesPage
+    },    
   ]
 })
 
