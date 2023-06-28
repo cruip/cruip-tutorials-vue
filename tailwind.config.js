@@ -13,6 +13,6 @@ export default {
       },      
     },
   },
-  plugins: [],
+  plugins: [require('@headlessui/tailwindcss')],
 }
 

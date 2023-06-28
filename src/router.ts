@@ -5,6 +5,7 @@ import ParticleAnimationPage from './pages/ParticleAnimationPage.vue'
 import SpotlightEffectPage from './pages/SpotlightEffectPage.vue'
 import FancyTestimonialsSliderPage from './pages/FancyTestimonialsSliderPage.vue'
 import VerticalTimelinesPage from './pages/VerticalTimelinesPage.vue'
+import UnconventionalTabsPage from './pages/UnconventionalTabsPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -32,7 +33,11 @@ const router = createRouter({
     {
       path: '/vertical-timelines',
       component: VerticalTimelinesPage
-    },    
+    },
+    {
+      path: '/unconventional-tabs',
+      component: UnconventionalTabsPage
+    },        
   ]
 })
 
