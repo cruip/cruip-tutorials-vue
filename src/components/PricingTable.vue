@@ -18,11 +18,13 @@ const isAnnual = ref<boolean>(true)
           class="relative flex-1 text-sm font-medium h-8 rounded-full focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150 ease-in-out"
           :class="isAnnual ? 'text-white' : 'text-slate-500 dark:text-slate-400'"
           @click="isAnnual = true"
+          :aria-pressed="isAnnual"
         >Yearly <span :class="isAnnual ? 'text-indigo-200' : 'text-slate-400 dark:text-slate-500'">-20%</span></button>
         <button
           class="relative flex-1 text-sm font-medium h-8 rounded-full focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150 ease-in-out"
           :class="isAnnual ? 'text-slate-500 dark:text-slate-400' : 'text-white'"
           @click="isAnnual = false"
+          :aria-pressed="isAnnual"
         >Monthly</button>
       </div>
     </div>

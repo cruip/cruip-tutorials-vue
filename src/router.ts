@@ -6,6 +6,7 @@ import SpotlightEffectPage from './pages/SpotlightEffectPage.vue'
 import FancyTestimonialsSliderPage from './pages/FancyTestimonialsSliderPage.vue'
 import VerticalTimelinesPage from './pages/VerticalTimelinesPage.vue'
 import UnconventionalTabsPage from './pages/UnconventionalTabsPage.vue'
+import FeatureComparisonPricingTablePage from './pages/FeatureComparisonPricingTablePage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -37,7 +38,11 @@ const router = createRouter({
     {
       path: '/unconventional-tabs',
       component: UnconventionalTabsPage
-    },        
+    },
+    {
+      path: '/feature-comparison-pricing-table',
+      component: FeatureComparisonPricingTablePage
+    },    
   ]
 })
 
