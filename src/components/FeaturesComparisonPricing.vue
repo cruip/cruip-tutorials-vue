@@ -92,7 +92,7 @@ const isAnnual = ref<boolean>(true)
         <div class="grow mb-5">
           <div class="font-semibold text-slate-900 dark:text-slate-200 mb-0.5">Essential</div>
           <div class="mb-1">
-            <span class="text-xl font-medium text-slate-900 dark:text-slate-200">$</span><span class="text-3xl font-bold text-slate-900 dark:text-slate-200">{{ isAnnual ? '29' : '45' }}</span><span class="text-slate-500 font-medium">/mo</span>
+            <span class="text-xl font-medium text-slate-900 dark:text-slate-200">$</span><span class="text-3xl font-bold text-slate-900 dark:text-slate-200">{{ isAnnual ? '29' : '35' }}</span><span class="text-slate-500 font-medium">/mo</span>
           </div>
           <div class="text-sm text-slate-500">Unlimited placeholder texts.</div>
         </div>
