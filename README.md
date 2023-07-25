@@ -13,6 +13,7 @@ If you're new to our articles, we recommend taking a look here: [Tailwind CSS Tu
 - [How to Build a Fancy Testimonial Slider with Tailwind CSS and Vue](https://cruip.com/how-to-build-a-fancy-testimonial-slider-with-tailwind-css-and-vue/)
 - [Using Tailwind CSS and Vue to Create Animated and Accessible Tabs](https://cruip.com/using-tailwind-css-and-vue-to-create-animated-and-accessible-tabs/)
 - [How to Create a Feature Comparison Table with Tailwind CSS](https://cruip.com/how-to-create-a-feature-comparison-table-with-tailwind-css/)
+- [Building a Simple Animated Accordion Component with Tailwind CSS](https://cruip.com/building-a-simple-animated-accordion-component-with-tailwind-css/)
 
 ## Vue 3 + TypeScript + Vite
 

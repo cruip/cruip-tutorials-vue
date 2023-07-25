@@ -7,6 +7,7 @@ import FancyTestimonialsSliderPage from './pages/FancyTestimonialsSliderPage.vue
 import VerticalTimelinesPage from './pages/VerticalTimelinesPage.vue'
 import UnconventionalTabsPage from './pages/UnconventionalTabsPage.vue'
 import FeatureComparisonPricingTablePage from './pages/FeatureComparisonPricingTablePage.vue'
+import AnimatedAccordionPage from './pages/AnimatedAccordionPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -42,7 +43,11 @@ const router = createRouter({
     {
       path: '/feature-comparison-pricing-table',
       component: FeatureComparisonPricingTablePage
-    },    
+    }, 
+    {
+      path: '/animated-accordion',
+      component: AnimatedAccordionPage
+    },        
   ]
 })
 
