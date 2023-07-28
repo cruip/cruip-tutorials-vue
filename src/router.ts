@@ -8,6 +8,7 @@ import VerticalTimelinesPage from './pages/VerticalTimelinesPage.vue'
 import UnconventionalTabsPage from './pages/UnconventionalTabsPage.vue'
 import FeatureComparisonPricingTablePage from './pages/FeatureComparisonPricingTablePage.vue'
 import AnimatedAccordionPage from './pages/AnimatedAccordionPage.vue'
+import RotatingWordsPage from './pages/RotatingWordsPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -47,7 +48,11 @@ const router = createRouter({
     {
       path: '/animated-accordion',
       component: AnimatedAccordionPage
-    },        
+    },
+    {
+      path: '/rotating-words',
+      component: RotatingWordsPage
+    },
   ]
 })
 
