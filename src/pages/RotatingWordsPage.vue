@@ -15,5 +15,5 @@ import Banner from '../components/Banner.vue'
     </div>
   </main>
   <Footer />
-  <Banner tutorialUrl="https://cruip.com/how-to-create-a-rotating-words-animation-with-tailwind-css/" downloadUrl="https://github.com/cruip/cruip-tutorials-vue/blob/main/src/components/RotatingWords.vue" />
+  <Banner tutorialUrl="https://cruip.com/creating-a-sliding-text-animation-with-tailwind-css/" downloadUrl="https://github.com/cruip/cruip-tutorials-vue/blob/main/src/components/RotatingWords.vue" />
 </template>
