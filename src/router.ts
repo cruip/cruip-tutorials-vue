@@ -9,6 +9,7 @@ import UnconventionalTabsPage from './pages/UnconventionalTabsPage.vue'
 import FeatureComparisonPricingTablePage from './pages/FeatureComparisonPricingTablePage.vue'
 import AnimatedAccordionPage from './pages/AnimatedAccordionPage.vue'
 import RotatingWordsPage from './pages/RotatingWordsPage.vue'
+import LogoCarouselPage from './pages/LogoCarouselPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -53,6 +54,10 @@ const router = createRouter({
       path: '/rotating-words',
       component: RotatingWordsPage
     },
+    {
+      path: '/logo-carousel',
+      component: LogoCarouselPage
+    },    
   ]
 })
 

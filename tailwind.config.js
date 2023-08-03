@@ -19,6 +19,7 @@ export default {
         'text-slide-6': 'text-slide-6 15s cubic-bezier(0.83, 0, 0.17, 1) infinite',
         'text-slide-7': 'text-slide-7 17.5s cubic-bezier(0.83, 0, 0.17, 1) infinite',
         'text-slide-8': 'text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite',
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
       },
       keyframes: {
         'text-slide-2': {
@@ -159,8 +160,12 @@ export default {
           },
           '100%': {
             transform: 'translateY(-88.88%)',
-          },
-        }
+          },        
+        },
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },        
       },      
     },
   },
