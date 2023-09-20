@@ -10,6 +10,7 @@ import FeatureComparisonPricingTablePage from './pages/FeatureComparisonPricingT
 import AnimatedAccordionPage from './pages/AnimatedAccordionPage.vue'
 import RotatingWordsPage from './pages/RotatingWordsPage.vue'
 import LogoCarouselPage from './pages/LogoCarouselPage.vue'
+import StickyScrollingPage from './pages/StickyScrollingPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -57,7 +58,11 @@ const router = createRouter({
     {
       path: '/logo-carousel',
       component: LogoCarouselPage
-    },    
+    },
+    {
+      path: '/sticky-scrolling',
+      component: StickyScrollingPage
+    }
   ]
 })
 
