@@ -36,7 +36,7 @@ const props = defineProps<Props>()
       @click="modalOpen = true"
       aria-label="Watch the video"
     >
-      <img class="rounded-3xl shadow-2xl transition-shadow duration-300 ease-in-out" :src="props.thumb" :width="props.thumbWidth" :height="props.thumbHeight" alt="Modal video thumbnail" />
+      <img class="rounded-3xl shadow-2xl transition-shadow duration-300 ease-in-out" :src="props.thumb" :width="props.thumbWidth" :height="props.thumbHeight" :alt="thumbAlt" />
       <!-- Play icon -->
       <svg class="absolute pointer-events-none group-hover:scale-110 transition-transform duration-300 ease-in-out" xmlns="http://www.w3.org/2000/svg" width="72" height="72">
         <circle class="fill-white" cx="36" cy="36" r="36" fill-opacity=".8" />
